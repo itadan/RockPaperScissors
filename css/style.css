@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.img-button{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.img-button button{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.img-button img{
+    width: 50px;
+    height: 50px;
+}
+.message{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
